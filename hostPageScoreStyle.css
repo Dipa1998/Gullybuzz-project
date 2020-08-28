@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.mainDiv{
+	background-color: #768082;
+	margin-left: 10%;
+	width: 80%;
+	height: 100vh;
+}
+.scoreDiv{
+	background-color: #768082; 
+	width: 100%;
+	height: 55vh;
+}
+.scoreInputDiv{
+	background-color: #768082;
+	width: 100%;
+	height: 35vh;
+}
+.setBatBall{
+	background-color: #768082;
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+}
+.btnDIV{
+	position: fixed;
+	bottom: 20px;
+	margin-top: 0%;
+	width: 100%;
+	margin-left: 30px;
+}
+.btnone{
+	background-color: #4e0e73;
+	color: #fff;
+	font-size: 35px;
+	border-radius: 50px;
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	outline: none;
+}
+.btnone:hover{
+	background-color: #17299c;
+	border: 3px solid red;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.btnwide{
+	background-color: #fff ;
+	color: #4d0e09;
+	font-size: 35px;
+	border-radius: 50px;
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	outline: none;
+}
+.btnwide:hover{
+	background-color: #b00ca5;
+	border: 3px solid #fff;
+	color: #111;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.btnout{
+	background-color: red ;
+	color: #fff;
+	font-size: 35px;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	outline: none;
+}
+.btnout:hover{
+	background-color: #d1ce19;
+	border: 3px solid red;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.btnAllOut{
+	background-color: #ff0000;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 50px;
+	border: 3px solid #fff;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	outline: none;
+}
+.btnAllOut:hover{
+	background-color: #17299c;
+	border: 3px solid red;
+	font-weight: bold;
+	transition: 0.5s;
+}

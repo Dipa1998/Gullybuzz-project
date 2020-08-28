@@ -1,0 +1,73 @@
+/*Design page for Registration*/
+body{
+	background-size:cover;
+	font-family:Arial;
+}
+/*Form style*/
+.reg_div{
+	max-width: 340px;
+	border-radius: 20px;
+	margin: auto;
+	background: #1c1716;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 100px;
+	color: #fff;
+
+}
+h2{
+	text-align: center;
+}
+/*Text style*/
+input[type=text], input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background: rgba(0, 0, 0, 0.10);
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted #fff;
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	
+}
+/*Button style*/
+.reg_submit{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0px;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	background: #3e808a;
+	opacity: 0.7;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+
+}
+.reg_submit:hover{
+	background: #144e57;
+	opacity: 0.7;
+	cursor: pointer;
+}
+h5{
+	margin-top:5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+/*For link style*/
+.signIn{
+	text-decoration: none;
+	color: #41b584;
+
+}
+/*Validation Color*/
+.text-danger{
+	font-size: 15px;
+	color:red;
+}
+
+
